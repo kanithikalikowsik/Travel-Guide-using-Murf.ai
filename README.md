@@ -1,5 +1,7 @@
 # 🌍 Travel Guide — Discover the World
 
+    A web-based Travel Guide project that helps users explore travel information using a frontend and a Python Flask backend, with Murf.ai integration.
+
 <p align="center">
   <strong>Your personal companion for exploring destinations with AI-powered travel assistance.</strong>
 </p><p align="center">
@@ -58,51 +60,37 @@
     └── README.md
   ```
 
-## ⚙️ Run Locally
+## 🌐 Live Demo
 
-#### 1. Clone the repository
+    - Frontend: https://travel-guide-frontend-delta.vercel.app/
+    - Backend: https://travel-guide-using-murf-ai-0ozg.onrender.com
 
-    git clone https://github.com/kanithikalikowsik/Travel-Guide-using-Murf.ai.git cd Travel-Guide-using-Murf.ai
+## 📦 Installation and Setup
 
-#### 2. Set up the backend
+    1. Clone the repository
 
-    cd back-end
-    python -m venv .venv
+    git clone https://github.com/kanithikalikowsik/Travel-Guide-using-Murf.ai.git
 
-    Activate the environment:
+    2. Open the project
 
-    Windows
+    cd Travel-Guide-using-Murf.ai
 
-    .venv\Scripts\activate
+    3. Set up the backend
 
-    Install the dependencies:
-
+    cd Backend
     pip install -r requirements.txt
-
-#### 3. Configure environment variables
-
-    Create a ".env" file inside "back-end/" and add the API keys required by your application.
-
-    GOOGLE_API_KEY=your_api_key_here
-
-    Use the exact variable name expected by your Python code. Never commit real API keys or your ".env" file to GitHub.
-
-### 4. Start the backend
-
-    Run the command that matches your Flask application. For example:
-
     python app.py
 
-#### 5. Open the frontend
+    4. Open the frontend
 
-    Open the frontend's main HTML file in your browser, or use your preferred local development server. Make sure the frontend API URL points to your running backend.
+    Open "Frontend/index.html" in your browser or use the development server appropriate for your project.
 
 ## 🚀 Deployment
 
     The deployment setup is:
 
-    - Frontend: "Vercel" 
-    - Backend: "Render"
+    - Frontend deployed using Vercel.
+    - Backend deployed using Render.
     - Source Code: "GitHub"
 
     Deployment configuration and environment variables must be set separately for each service.
@@ -122,7 +110,10 @@
     - GitHub: "https://github.com/kanithikalikowsik" 
     - LinkedIn: "www.linkedin.com/in/kanithi-kali-kowsik"
 
----
+## 📄 License
+
+    This project is licensed under the MIT License. See the LICENSE file for details.
+
 
 ## <p align="center">
   🌍 <strong>Explore More. Travel Smarter.</strong> ✈️
