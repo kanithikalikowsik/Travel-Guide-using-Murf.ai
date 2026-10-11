@@ -49,23 +49,16 @@ Cross-Origin Requests| Flask-CORS
 Environment Configuration| python-dotenv
 Version Control| Git & GitHub
 
-# 📁 Project Structure
+## 📁 Project Structure
 
 Travel-Guide/
-│
-├── front-end/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-│
-├── back-end/
+├── Backend/
 │   ├── app.py
-│   └── requirements.txt
-│
-├── screenshots/
-│   ├── homepage.png
-│   └── audio-guide.png
-│
+│   ├── requirement.txt
+│   └── .env              # Private — not uploaded
+├── Frontend/
+│   ├── index.html
+│   └── index.js
 ├── .gitignore
 └── README.md
 
