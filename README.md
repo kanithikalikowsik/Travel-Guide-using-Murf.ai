@@ -103,7 +103,7 @@
     - Configure the backend's allowed origins for your deployed frontend.
 
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
     Kanithi Kali Kowsik 
 
