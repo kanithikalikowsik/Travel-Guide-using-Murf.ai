@@ -12,122 +12,121 @@
 
 ## ✈️ About the Project
 
-Travel Guide is a web-based project designed to help users explore destinations and access travel information through an interactive interface.
+    Travel Guide is a web-based project designed to help users explore destinations and access travel information through an interactive interface.
 
-The project separates the frontend and backend, making it easier to maintain, develop, and deploy each part independently.
+    The project separates the frontend and backend, making it easier to maintain, develop, and deploy each part independently.
 
 ## 🧭 The Idea
 
-Travel is more than visiting a place — it's about discovering its history, culture, and unique experiences.
-Travel Guide brings destination information into one interactive web experience. Its frontend provides the interface, while the Python backend handles the application's server-side functionality.
+    Travel is more than visiting a place — it's about discovering its history, culture, and unique experiences.
+    Travel Guide brings destination information into one interactive web experience. Its frontend provides the interface, while the Python backend handles the application's server-side functionality.
 
 ## ✨ Features
 
-- 🌎 Destination Exploration — Explore travel destinations.
-- 🔎 Destination Search — Find destinations through the search interface, if implemented.
-- 🎧 Audio Travel Guides — Generate or listen to destination guides, if supported by your application.
-- 🗣️ Language Options — Access available language choices, if implemented.
-- 📱 Responsive Interface — Designed for a range of screen sizes, if supported.
-- 🔗 Frontend & Backend Integration — Connect the user interface to the Python backend.
+    - 🌎 Destination Exploration — Explore travel destinations.
+    - 🔎 Destination Search — Find destinations through the search interface, if implemented.
+    - 🎧 Audio Travel Guides — Generate or listen to destination guides, if supported by your application.
+    - 🗣️ Language Options — Access available language choices, if implemented.
+    - 📱 Responsive Interface — Designed for a range of screen sizes, if supported.
+    - 🔗 Frontend & Backend Integration — Connect the user interface to the Python backend.
 
 «Keep only the features that are actually implemented in your project.»
 
 ## 🖥️ Project Preview
 
-Add screenshots of your actual application here.
+    Add screenshots of your actual application here.
 
-Homepage| Audio Guide
-"Travel Guide Homepage" (screenshots/homepage.png)| "Audio Guide" (screenshots/audio-guide.png)
+    Homepage| Audio Guide
+    "Travel Guide Homepage" (screenshots/homepage.png)| "Audio Guide" (screenshots/audio-guide.png)
 
 ## 🛠️ Tech Stack
 
-Part| Technologies
-Frontend| HTML, CSS, JavaScript
-Backend| Python, Flask
-API & AI Integration| Google Gen AI SDK, if used
-Cross-Origin Requests| Flask-CORS
-Environment Configuration| python-dotenv
-Version Control| Git & GitHub
+    Part| Technologies
+    Frontend| HTML, CSS, JavaScript
+    Backend| Python, Flask
+    API & AI Integration| Google Gen AI SDK, if used
+    Cross-Origin Requests| Flask-CORS
+    Environment Configuration| python-dotenv
+    Version Control| Git & GitHub
 
 ## 📁 Project Structure
 
-Travel-Guide/
-├── Backend/
-│   ├── app.py
-│   ├── requirement.txt
-│   └── .env              # Private — not uploaded
-├── Frontend/
-│   ├── index.html
-│   └── index.js
-├── .gitignore
-└── README.md
-
-Adjust the filenames and folders above to match your actual project.
+  ```
+    Travel-Guide/
+    ├── Backend/
+    │   ├── app.py
+    │   ├── requirement.txt
+    |   # .env stays private and is not uploaded 
+    ├── Frontend/
+    │   ├── index.html
+    │   └── index.js
+    ├── .gitignore
+    └── README.md
+  ```
 
 ## ⚙️ Run Locally
 
-1. Clone the repository
+#### 1. Clone the repository
 
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd Travel-Guide
+    git clone https://github.com/kanithikalikowsik/Travel-Guide-using-Murf.ai.git cd Travel-Guide-using-Murf.ai
 
-2. Set up the backend
+#### 2. Set up the backend
 
-cd back-end
-python -m venv .venv
+    cd back-end
+    python -m venv .venv
 
-Activate the environment:
+    Activate the environment:
 
-Windows
+    Windows
 
-.venv\Scripts\activate
+    .venv\Scripts\activate
 
-Install the dependencies:
+    Install the dependencies:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
-3. Configure environment variables
+#### 3. Configure environment variables
 
-Create a ".env" file inside "back-end/" and add the API keys required by your application.
+    Create a ".env" file inside "back-end/" and add the API keys required by your application.
 
-GOOGLE_API_KEY=your_api_key_here
+    GOOGLE_API_KEY=your_api_key_here
 
-Use the exact variable name expected by your Python code. Never commit real API keys or your ".env" file to GitHub.
+    Use the exact variable name expected by your Python code. Never commit real API keys or your ".env" file to GitHub.
 
-4. Start the backend
+### 4. Start the backend
 
-Run the command that matches your Flask application. For example:
+    Run the command that matches your Flask application. For example:
 
-python app.py
+    python app.py
 
-5. Open the frontend
+#### 5. Open the frontend
 
-Open the frontend's main HTML file in your browser, or use your preferred local development server. Make sure the frontend API URL points to your running backend.
+    Open the frontend's main HTML file in your browser, or use your preferred local development server. Make sure the frontend API URL points to your running backend.
 
 ## 🚀 Deployment
 
-The deployment setup is:
+    The deployment setup is:
 
-- Frontend: "Vercel" 
-- Backend: "Render"
-- Source Code: "GitHub"
+    - Frontend: "Vercel" 
+    - Backend: "Render"
+    - Source Code: "GitHub"
 
-Deployment configuration and environment variables must be set separately for each service.
+    Deployment configuration and environment variables must be set separately for each service.
 
 ## 🔐 Security
 
-- Keep API keys and credentials in environment variables.
-- Add ".env" to ".gitignore".
-- Never publish passwords, private tokens, or secret credentials.
-- Configure the backend's allowed origins for your deployed frontend.
+    - Keep API keys and credentials in environment variables.
+    - Add ".env" to ".gitignore".
+    - Never publish passwords, private tokens, or secret credentials.
+    - Configure the backend's allowed origins for your deployed frontend.
 
 
 # 👨‍💻 Author
 
-Kanithi Kali Kowsik 
+    Kanithi Kali Kowsik 
 
-- GitHub: "https://github.com/kanithikalikowsik" 
-- LinkedIn: "www.linkedin.com/in/kanithi-kali-kowsik"
+    - GitHub: "https://github.com/kanithikalikowsik" 
+    - LinkedIn: "www.linkedin.com/in/kanithi-kali-kowsik"
 
 ---
 
