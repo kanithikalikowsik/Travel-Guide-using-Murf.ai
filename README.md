@@ -32,12 +32,6 @@
 
 «Keep only the features that are actually implemented in your project.»
 
-## 🖥️ Project Preview
-
-    Add screenshots of your actual application here.
-
-    Homepage| Audio Guide
-    "Travel Guide Homepage" (screenshots/homepage.png)| "Audio Guide" (screenshots/audio-guide.png)
 
 ## 🛠️ Tech Stack
 
