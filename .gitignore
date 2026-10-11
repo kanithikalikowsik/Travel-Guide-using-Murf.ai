@@ -1,0 +1,16 @@
+# Keep API keys and secrets Private 
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.* 
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor and operating system
+.vscode/
+.DS_Store
